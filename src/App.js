@@ -1,11 +1,14 @@
 import "./App.css";
+import Myheader from "./Components/Myheader";
+import Mycenter from "./Components/Mycenter";
+import Myfooter from "./Components/Myfooter";
 
 function App() {
   return (
     <div className="App">
-      <header className="my-header">My Header</header>
-      <div className="my-container">Слава Україні!</div>
-      <footer className="my-footer">My Footer</footer>
+      <Myheader />
+      <Mycenter />
+      <Myfooter />
     </div>
   );
 }
