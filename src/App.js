@@ -1,16 +1,16 @@
 import "./App.css";
-import Myheader from "./Components/Myheader";
-import Mycenter from "./Components/Mycenter";
-import Myfooter from "./Components/Myfooter";
+import ToDoList from "./components/ToDoList";
+import React, { Component } from "react";
 
-function App() {
-  return (
-    <div className="App">
-      <Myheader />
-      <Mycenter />
-      <Myfooter />
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="container">
+        <h1 className="app-title">MY TODO LIST :)</h1>
+        <ToDoList />
+      </div>
+    );
+  }
 }
 
 export default App;

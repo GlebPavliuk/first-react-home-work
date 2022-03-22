@@ -1,37 +1,57 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+body{
+  background: lightyellow;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
 }
 
-.App {
+.btn{
+  background: pink;
+  margin: 20px;
+}
+
+.add-btn{
+  background: lightblue;
+  width: 40px;
+  height: 40px;
+}
+.app-title{
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  color: black;
-  font-size: 30px;
+  color: lightblue;
+  font-size: 70px;
+}
+.container{
+  border: 5px solid pink;
+  border-radius: 25px;
 }
 
-.my-header {
-  background-color: dodgerblue;
-  height: 300px;
+.box {
+    padding: 30;
+    text-align: "left";
+    max-width: 500;
+    margin: "auto"
 }
 
-.my-container {
-  background-color: white;
-  color: black;
-  font-size: 50px;
-  height: 150px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.done {
+  background-color: lawngreen;
+  border: solid 3px blue;
+  border-radius: 15px;
+  text-align: center;
 }
 
-.my-footer {
-  background-color: yellow;
-  height: 300px;
-  display: flex;
-  flex-direction: column-reverse;
+.undone {
+  background-color: orangered;
+  border: solid 3px black;
+  border-radius: 15px;
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+}
+
+.list-container {
+  padding: 30px;
+  text-align: left;
+  max-width: 500px;
+  margin: auto;
 }
